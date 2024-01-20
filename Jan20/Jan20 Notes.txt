@@ -1,0 +1,129 @@
+Bootstrap:
+
+
+Bootstrap utilizes Sass for a modular and customizable architecture.
+Import only the components you need, enable global options like gradients and shadows, and ...
+
+
+How to install the Bootstrap:
+
+1. External Way--Download the Bootstrap files.
+
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css---this one needed
+│   ├── bootstrap.min.css.map
+│   ├── bootstrap-theme.css
+│   ├── bootstrap-theme.css.map
+│   ├── bootstrap-theme.min.css
+│   └── bootstrap-theme.min.css.map
+├── js/
+│   ├── bootstrap.js
+│   └── bootstrap.min.js
+└── fonts/
+    ├── glyphicons-halflings-regular.eot
+    ├── glyphicons-halflings-regular.svg
+    ├── glyphicons-halflings-regular.ttf
+    ├── glyphicons-halflings-regular.woff
+    └── glyphicons-halflings-regular.woff2
+
+2. CDN---Content Delivery Network:--RWDD-Responsive Webdesigning and Web development
+
+
+
+
+
+
+3. NPM--Node Package Manager----node.js---Bootstrap 
+
+npm install bootstrap@3
+
+
+
+Bootstrap--classes
+
+
+1. Container--md,sm,lg,xl,xxl
+
+2. Container-fluid
+
+Grid System-- row and column
+
+3. Buttons:
+
+<button type="button" class="btn btn-primary active">Active Primary</button>
+<button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+<a href="#" class="btn btn-primary disabled">Disabled Link</a>
+
+4. Tables
+
+----Table-Bordered,striped, hover,table-dark,table table-dark table-striped,table table-borderless
+
+5. Images:  rounded,circle, thumbnail, aligining,centered, responsive images
+
+<img src="cinqueterre.jpg" class="rounded" alt="Cinque Terre">
+<img src="cinqueterre.jpg" class="rounded-circle" alt="Cinque Terre">
+<img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre">
+
+<img src="paris.jpg" class="float-left">
+<img src="paris.jpg" class="float-right">
+
+
+How to Create a Github Account Creation:
+
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> git init
+Initialized empty Git repository in C:/Users/naren/OneDrive/Desktop/FrontEnd/.git/
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> git remote add origin https://github.com/Narenlogan/Webdesigning.git
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> git add .
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> git commit -m "first commit"
+[master (root-commit) f347a63] first commit
+ 20 files changed, 696 insertions(+)
+ create mode 100644 Jan06.zip
+ create mode 100644 Jan06/Contact.html
+ create mode 100644 Jan06/Forms.html
+ create mode 100644 Jan06/Registration.html
+ create mode 100644 Jan06/first.html
+ create mode 100644 Jan06/images/jeeva.jpeg
+ create mode 100644 Jan06/main.html
+ create mode 100644 Jan06/prasanth.css
+ create mode 100644 Jan06/second.html
+ create mode 100644 Jan06Notes.txt
+ create mode 100644 Jan07.zip
+ create mode 100644 Jan07/index.html
+ create mode 100644 Jan07/jeeva.jpeg
+ create mode 100644 Jan07/styles.css
+ create mode 100644 Jan07Notes.txt
+ create mode 100644 Jan13/Jan13.txt
+ create mode 100644 Jan13/indexs.html
+ create mode 100644 Jan20/Grid.html
+ create mode 100644 Jan20/Tables.html
+ create mode 100644 Jan20/index.html
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> git branch -M main
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> git push -u origin main
+Enumerating objects: 26, done.
+Counting objects: 100% (26/26), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (26/26), 28.39 KiB | 3.55 MiB/s, done.
+Total 26 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Narenlogan/Webdesigning.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\naren\OneDrive\Desktop\FrontEnd> 
+
+6. List
+
+7. Forms
+
+8. Colors
+
+9. Dropdowns
+
+10.Link
+
+11.List Groups
+
+12. Alerts
