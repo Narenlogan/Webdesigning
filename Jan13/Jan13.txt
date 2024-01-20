@@ -1,0 +1,95 @@
+13-01-2024
+
+
+6.Margin properties: Margin-top,bottom, left,right
+
+div {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 250px;
+  margin-left: 180px;
+  background-color: lightblue;
+}
+
+Margin:
+
+7.Padding Properties:
+
+
+<style>
+div {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 150px;
+  padding-right: 130px;
+  padding-bottom: 50px;
+  padding-left: 180px;
+}
+
+8.Display properties:  none, inline, inline-block,block
+<style>
+p {color: red;}
+
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+</style>
+</head>
+<body>
+<h1>The display Property</h1>
+
+<h2>display: none:</h2>
+<div>
+Lorem ipsum dolor.... <p class="ex1">HELLO WORLD!</p> Vestibulum volutpat tellus diam....
+</div>
+
+<h2>display: inline:</h2>
+<div>
+Lorem ipsum dolor.... <p class="ex2">HELLO WORLD!</p> Vestibulum volutpat tellus diam....
+</div>
+
+<h2>display: block:</h2>
+<div>
+Lorem ipsum dolor.... <p class="ex3">HELLO WORLD!</p> Vestibulum volutpat tellus diam....
+</div>
+
+<h2>display: inline-block:</h2>
+<div>
+Lorem ipsum dolor.... <p class="ex4">HELLO WORLD!</p> Vestibulum volutpat tellus diam....
+</div>
+
+
+9.Visibility Properties: visible, hidden.
+
+10. Link Properties:
+
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+List Properties:
+
+list-style-type: circle, square, upper-roman, lower-alpha

@@ -1,0 +1,62 @@
+Web pages--Collection of static files.
+
+Web Browser---Netscape Navigator..
+
+
+html
+
+
+1. Heading Level Tags:--<h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+2. Page Information Tags:<meta>,<title>,<style>,<script>,<link>
+
+3. Formating Tags:<b>,<i>,<u>,<sub>,<sup>,<em>,<strong>,<del>,<div>,<span>,<p>
+
+4. Image Tags:--jpg,jpeg,svg,jrtff,bmp,<img>
+
+5. Hyperlink Tags--<a>---is called anchor tag.
+
+6. Table Tags--
+	<table>,
+              <tr>, Table row
+		<td>,Table data
+		<th>Table head
+		<thead>,<tfoot>
+		<caption>,<fieldset>
+
+7. List Tags:
+
+List tags:<li>
+
+--------Ordered List:<ol>
+
+--------Un Ordered List:<ul>
+
+8. Form Tags:<form>,<input>,<select>,<textarea>
+
+9. Audio and Video Tags: 
+
+
+Units:
+
+px--pixel
+
+pt--point
+
+pcs--picas
+
+inch--inches
+
+value--numerical
+
+percentages--10%
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+CSS Files:
+
+Selectors:  id selector, class selector, Nested Selector.
+
+#--id selector
+.---class selector
+
+CSS Sheets:
+
+Three Types of Sheets:
+
+
+inline sheet
+
+internal sheet
+
+external sheet.
+
+
+CSS Properties:
+
+1.color Properties:  color: values, Hex Colors, RGB, YMK
+
+https://www.color-hex.com/
+
+2.Font Properties:font-family,font-size,font-variant,font-style,font-stretch,font-weight
+
+3.Background Properties: background-image,background-position,background-repeat,background-attachment,background-origin.
+
+4.Box Properties: height, width
+
+5.Text Properties:text-color,text-decoration,letter-spacing,word-spacing,text-alignment,line-height,text-shadow,text-transformation
+
+Exercises Link:
+
+https://devpost.com/software/blood-bank-management-system-5e1toh
+
+6.Margin properties
+
+7.Padding Properties
+
+8.Display properties
+
+9.Visibility Properties
+
+
+
+

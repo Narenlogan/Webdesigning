@@ -1,0 +1,31 @@
+body{
+    background-image: url('jeeva.jpeg');
+}
+
+p
+{
+    background-color: green;
+    font-size:0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.jeeva
+{
+    color: blue;
+    font-size: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.Praveen
+{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: initial;
+    background-attachment: fixed;
+    background-position: center;
+    height:fit-content;
+    width: auto;
+
+}
