@@ -1,0 +1,149 @@
+Html,css, Bootstrap:
+
+Validations---
+
+Client side Validations: validations
+Server side Validations----
+
+
+I-P-O.
+
+MVC--Model view controller--Validations
+
+client--through the controller for back end frameworks
+
+View---Reponsive 
+
+Scripting language
+
+Client side scripting language
+Server side scription language
+
+Client side scripting language:  JS,VB.
+
+Server side scripting language:Php,perl,Ruby,ASP.net
+
+
+LAMP--Stack---
+
+
+Information--UI---Client side scripting language-Java scripting language.
+
+Java vs Java Script:
+
+JS---Its running in the browser----Console--browser
+
+BOM,DOM
+
+
+
+
+Basic Structures:
+
+Variable, Data types, Constrol structures, functions:
+
+Java Script Features:
+
+BOM--Browser object Model
+
+DOM--Document object Models
+
+
+
+Tokens:
+
+---its  a smallest unit of the program.
+
+----Variables,Constants,Operators, Keywords
+
+
+Variables:   its a container its used to store the values.
+
+var,let, const
+
+What is the difference between var,let,const.
+
+Casting functions:
+
+ParseInt()
+
+ParseDouble()
+
+ParseFloat()
+
+Dynamic
+
+Enter a value:
+
+Enter b value:
+
+       submit
+
+function create
+
+Events===
+
+
+Operators: is a symbol that manipulate to calculate the arithmetic expressions or 
+logical expressions.
+
+Arithmetic Operator or Binary Operator: +,-,*,/,%,(,)
+
+a=10
+b=20
+c=(a+b)/a*b+a-b;
+
+
+Relational Operator or Comparison operator: >,<,>=,<=,==,!=
+
+Logical Operator:  To combine the multiple conditions: &&,||,!
+
+Assignment Operator:=
+
+left to right:
+
+a=10
+
+b=a
+
+Compound Assignment Operator:+=,-=,*=,/=,%=
+
+Unary Operator:increment, decrement
+
+increment--post, pre.
+a=10
+a++;
+a=a;
+a=a+1
+
+++a;
+a=a+1
+a=a;
+decrement--post,pre.
+
+
+
+Conditional Operator or Ternary Operator:To evaluate the conditions: ?:
+a=10
+b=20
+c=(a>b)?a:b;
+
+
+Constructs:
+          
+---Constructs: Conditional Constructs.
+             : Loop Constructs.
+
+Conditional constructs: condition evaluation with help of the relational operators.
+
+
+------if else, Nested if else, else if ladder, switch....
+
+if(condition)
+{
+    statement;
+
+}
+else{
+    statement;
+}

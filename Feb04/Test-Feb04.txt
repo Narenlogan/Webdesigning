@@ -1,0 +1,47 @@
+1.What are the various formatting tags in HTML?
+
+<i> --> italic
+<b>,<strong> --> bold
+<sup> --> superscript
+<sub> --> subscript
+<p> --> paragraph
+
+2.Please explain how to indicate the character set being used by a document in HTML?
+
+Nil
+
+3.How is Cell Padding different from Cell Spacing?
+
+Padding is a property of a container but cell spacing something that provides sapce inside the container
+
+4.Is it possible to change an inline element into a block level element?
+
+yes, Using flex we can perform block level element or we can also do this using display property
+
+5.How can we club two or more rows or columns into a single row or column in an HTML table?
+
+Using colspan or rowspan
+
+6.In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?
+
+
+7.How to specify the link in HTML and explain the target attribute?
+
+External link should be given inside head tag and the attributes are href and rel that is relationship
+
+8. Difference between link tag <link> and anchor tag <a>?
+
+1)Link tag is used for external file linking and anchor tag is used to link specific words
+
+2)Link tag must be declared inside the head tag but anchor tag can be used inside the body tag
+
+9.How to include javascript code in HTML?
+
+Using Link tag we can include the JS file or wecan also use scrpit tag to include JS
+
+10.What are forms and how to create forms in HTML?
+
+Using form tag we can create a form and input tag to get input
+form includes different attributes like textarea, placeholder, date, date-time, number, text
+Alignment can be acheived using table without border
+In bootstrap we can use form-grp class to implement a form
