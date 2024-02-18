@@ -1,0 +1,203 @@
+OOPS:
+
+1.Class 
+
+2. Objects----JSON---Objects -----Service--React, Node,
+
+things---instance of the class
+
+class---collection of objects that share a common name is called as class.
+
+Objects---state,behaviour, Identity
+
+State--set of attributes is called state, id, name, salary
+
+behaviour--set of methods is called behaviour
+
+Identity--uniques
+
+{
+id:101,
+name:"Jeevan"
+} time complexity---Collection of objects to store a single objects:ORM
+
+
+how to handle the Objects in JavaScript or Type Scripts:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Variables</h2>
+
+<p id="demo"></p>
+
+<script>
+// Create and display a variable:
+let person = "John Doe";
+document.getElementById("demo").innerHTML = person;
+</script>
+
+</body>
+</html>
+
+
+Objects in Variables:
+
+JavaScript variables can also contain many values.
+
+Objects are variables too. But objects can contain many values.
+
+Object values are written as name : value pairs (name and value separated by a colon).
+
+let person = {
+  firstName : "John",
+  lastName  : "Doe",
+  age     : 50,
+  eyeColor  : "blue"
+};
+
+console.log(person.firstName +"is"+" " + person.lastName);
+console.log(person["firstName"]+"is"+" "+person["lastName"]);
+
+Validations:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+<p>Creating an object:</p>
+
+<p id="demo"></p>
+
+<script>
+let person = {
+  firstName : "John",
+  lastName  : "Doe",
+  age     : 50,
+  eyeColor  : "blue"
+};
+
+document.getElementById("demo").innerHTML = person.firstName + " " + person.lastName;
+</script>
+
+</body>
+</html>
+
+
+const person = {
+  firstName : "John",
+  lastName  : "Doe",
+  age     : 50,
+  eyeColor  : "blue"
+};
+
+document.getElementById("demo").innerHTML = person.firstName + " " + person.lastName;
+
+
+
+how iterate the objects values
+
+---Answer: using for Loop:---Associative Array:
+
+
+const person = {
+  fname:" John",
+  lname:" Doe",
+  age: 25
+};
+person.nationality = "English";
+let txt = " 	";
+for (let x in person) {
+  txt += person[x]+" ";
+}
+
+How to add the new properties:
+
+person.nationality = "English";
+
+how to delete the object properties:
+
+delete person.age;
+
+or
+
+delete person["age"];
+
+
+Nested objects:
+
+myObj = {
+  name:"John",
+  age:30,
+  cars: {
+    car1:"Ford",
+    car2:"BMW",
+    car3:"Fiat"
+  }
+}
+
+
+myObj.cars["car2"];
+
+myObj["cars"]["car2"];
+
+
+Java Scripts Object Methods:
+
+this--to load the current instance..
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+To call the methods:
+1. person.fullName()
+
+2. name=person.fullName();
+
+Adding a method to object
+
+person.name=function () {
+  return this.firstName + " " + this.lastName;
+
+
+};
+
+
+Object Methods:
+
+let message = "Hello world!";
+let x = message.toUpperCase();
+
+
+Object Display with values();;
+
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const myArray = Object.values(person);
+
+console.log(myArray);
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+Array:
+
+Collection of similar data items.
+
+
+var, let, const==
+
+const a=[]
